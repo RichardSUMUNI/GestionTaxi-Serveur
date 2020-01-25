@@ -18,7 +18,7 @@ public class Connexion {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String chaineConnexion="jdbc:mysql://localhost:3306/db_taxi";
-            con=DriverManager.getConnection(chaineConnexion, "root", "Bin.netzero10");
+            con=DriverManager.getConnection(chaineConnexion, "root", "");
         } catch (Exception e) {
         }
     }
